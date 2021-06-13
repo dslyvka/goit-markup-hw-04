@@ -522,6 +522,48 @@ padding: 16px 32px;
   fill: var(--social-meadia-logo);
 }
 
+.client1 {
+  padding-right: 33px;
+  padding-bottom: 6.7px;
+  padding-left: 32px;
+  padding-top: 7px;
+}
+
+.client2 {
+  padding-top: 3px;
+  padding-right: 33px;
+  padding-bottom: 5px;
+  padding-left: 33px;
+}
+
+.client3 {
+  padding-top: 9px;
+  padding-right: 33px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.client4 {
+  padding-top: 9px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+  padding-left: 11px;
+}
+
+.client5 {
+  padding-top: 7px;
+  padding-right: 21px;
+  padding-bottom: 8px;
+  padding-left: 22px;
+}
+
+.client6 {
+  padding-top: 7px;
+  padding-right: 6px;
+  padding-bottom: 9px;
+  padding-left: 6px;
+}
+
 .clients-list-item-link:hover .client-icon,
 .clients-list-item-link:focus .client-icon{
   fill: var(--main-active-color);
