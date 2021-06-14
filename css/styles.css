@@ -244,6 +244,7 @@ ul {
   rgba(47, 48, 58, 0.4)), 
   url("../images/hero1.jpg");
   background-repeat: no-repeat;
+  max-width: 1600px;
   background-position: center;
   background-size: cover;
 
@@ -251,8 +252,9 @@ ul {
   
   padding-top: 200px;
   padding-bottom: 200px;
+  margin: 0 auto;
 
-  max-width: 1600px;
+  
 }
 
 .hero-container {
@@ -437,19 +439,19 @@ ul {
   margin-bottom: 16px;
 }
 
-.our-team-social-media-list-item {
+.our-team-social-media-list-link {
   width: 44px;
   height: 44px;
 }
 
 .our-team-social-media-list-link {
   border-radius: 50%;
-  padding: 12px 12px;
 }
 
 .icon-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .our-team-social-media-list-item-icon {
@@ -482,7 +484,7 @@ ul {
 .clients-title {
   text-align: center;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.16;
 
   margin-top: 0;
   margin-bottom: 50px;
@@ -501,8 +503,6 @@ ul {
 .clients-list-item-link {
 border: 1px solid var(--social-meadia-logo);
 border-radius: 4px;
-
-padding: 16px 32px;
 }
 
 .clients-list-item-link:hover,
@@ -513,55 +513,44 @@ padding: 16px 32px;
 .client-icon-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 92px;
 }
 
 .client-icon {
-  width: 106px;
-  height: 60px;
-
   fill: var(--social-meadia-logo);
 }
 
 .client1 {
-  padding-right: 33px;
-  padding-bottom: 6.7px;
-  padding-left: 32px;
-  padding-top: 7px;
+  width: 41px;
+  height: 46.7px;
 }
 
 .client2 {
-  padding-top: 3px;
-  padding-right: 33px;
-  padding-bottom: 5px;
-  padding-left: 33px;
+  width: 40px;
+  height: 52px;
 }
 
 .client3 {
-  padding-top: 9px;
-  padding-right: 33px;
-  padding-bottom: 10px;
-  padding-left: 30px;
+  width: 43.46px;
+  height: 41.18px;
 }
 
 .client4 {
-  padding-top: 9px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-  padding-left: 11px;
+  width: 84.44px;
+  height: 40.62px;
 }
 
 .client5 {
-  padding-top: 7px;
-  padding-right: 21px;
-  padding-bottom: 8px;
-  padding-left: 22px;
+  width: 62.54px;
+  height: 45.43px;
 }
 
 .client6 {
-  padding-top: 7px;
-  padding-right: 6px;
-  padding-bottom: 9px;
-  padding-left: 6px;
+  width: 93.79px;
+  height: 43.93px;
 }
 
 .clients-list-item-link:hover .client-icon,
@@ -756,10 +745,13 @@ margin-bottom: 20px;
 }
 
 .social-media-list-item-link {
-  padding: 12px;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
 
   background: rgba(255, 255, 255, 0.1);
 }
